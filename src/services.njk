@@ -1,0 +1,93 @@
+---
+title: Expert Crypto and Fintech Writer and SEO SPECIALIST
+layout: 'base.njk'
+description: This is a description
+---
+
+
+<section>
+    <div class="container_large">
+        <div class="padding_global">
+            <div class="services-component">
+                <div class="grid-center">
+                    <div class="text">
+                        <div>
+                            
+                            <h1><span>Content creation services that help you grow</span></h1>
+                        <p>
+                            Just as the human body requires a steady supply of blood from the heart to survive, your brand, blog, and organization require a consistent flow of content to thrive.
+                        </p>
+                        <div class="button-holder">
+                            <a href="/#cta" class="button">
+                                <span></span>
+                                Start a project 🎉
+                                <span></span>
+                            </a>
+                           
+                        </div>
+                        
+                        </div>
+                        
+                    </div>
+                   
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container_large">
+        <div class="padding_global">
+            
+            <div class="metrics">
+                <div class="metric">
+                    <div class="icon"></div>
+                    <h3>SEO Content Writing</h3>
+                    <p>
+                      Elevate your online presence with SEO-optimized blog content tailored to engage your audience and boost your search engine rankings. From keyword research to captivating storytelling, I’ll craft blog posts that resonate with your target audience, drive traffic to your website, and establish you as an authority in your industry.
+                  </p>
+                </div>
+                <div class="metric">
+                    <div class="icon green"></div>
+                    <h3>Website Copy</h3>
+                    <p>Make a lasting impression with compelling website copy that captivates visitors and converts them into loyal customers. Whether you’re launching a new website or refreshing existing content, I’ll work closely with you to understand your brand, convey your unique value proposition, and create persuasive copy that inspires action and drives results.
+                  </p>
+                </div>
+                <div class="metric spaned">
+                    <div class="icon red"></div>
+                    <h3>Content Updating</h3>
+                    <p>Keep your blog fresh and relevant with regular updates and optimizations. From refreshing outdated content to adding new insights and information, I’ll ensure that your blog remains a valuable resource for your audience. With a focus on quality and consistency, I’ll help you maintain momentum and maximize the impact of your content strategy.
+                  </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container_large">
+        <div class="padding_global">
+            <div class="section-title mid">
+                <h2>My <span class="text-span">Latest</span> Blog</h2>
+                <p>A clear working process is a prerequisite for success. Here’s a quick overview of how I start and complete a writing project.</p>
+                
+            </div>
+            <div>
+              <ul role="list" class="articles__list flow">
+                  {%- for post in collections.featured | reverse -%}
+                     {% include 'article-snippet.njk' %}
+                  {%- endfor -%}
+              </ul>
+            </div>
+            
+            <div class="centerd-botton">
+                <a href="/blog" class="button">View All</a>
+            </div>
+        </div>
+    </div>
+  </section>
