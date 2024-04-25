@@ -14,7 +14,7 @@ desc: This is a description
                       <div>
                           <h3>👋 Hi</h3>
                           <h3 class="inline-padding">I’m Ayomide Adeleye</h3>
-                          <h1><span class="text-span">A B2B SEO</span> Content Specialist</h1>
+                          <h1><span class="text-span">A B2B SEO</span> Content Expert</h1>
                       <p>
                         Just as the human body requires a steady supply of blood from the heart to survive, your brand, blog, and organization require a consistent flow of content to thrive.
 
@@ -57,7 +57,7 @@ desc: This is a description
       <div class="padding_global">
           <div class="two-cols">
               <div class="words">
-                  <h2>Authoritative SEO content Tailored <span class="text-span">for B2B SaaS and Tech brands</span></h2>
+                  <h2>Authoritative SEO Content Tailored  <span class="text-span">for B2B SaaS and Tech brands</span></h2>
                   <p>I craft authoritative SEO content tailored for B2B SaaS brands aiming for the top. My strength lies in creating engaging content that not only drives user sign-ups but also aligns with search intent.</p>
               </div>
               <div class="imaged">
@@ -85,7 +85,7 @@ desc: This is a description
   <div class="container_large">
       <div class="padding_global">
           <div class="section-title mid">
-              <h2>Here’s How I can Be of Assistance</h2>
+              <h2>Here’s How I Can be of Assistance</h2>
               
           </div>
           <div class="metrics">
@@ -104,7 +104,8 @@ desc: This is a description
               </div>
               <div class="metric spaned">
                   <div class="icon red"></div>
-                  <h3>Content Updating</h3>
+                  <h3>Updating Blog Content
+                </h3>
                   <p>Keep your blog fresh and relevant with regular updates and optimizations. From refreshing outdated content to adding new insights and information, I’ll ensure that your blog remains a valuable resource for your audience. With a focus on quality and consistency, I’ll help you maintain momentum and maximize the impact of your content strategy.
                 </p>
               </div>
@@ -119,7 +120,7 @@ desc: This is a description
       <div class="padding_global">
           <div class="testimonial-component">
               <div class="section-title mid">
-                  <h2>What our Clients think about us</h2>
+                  <h2>What our clients think about us</h2>
                   <p>100% of surveyed clients recommended </p>
               </div>
               <div class="testimonial-grid">
@@ -158,8 +159,16 @@ desc: This is a description
                   </div>
                   <div class="testimonial">
                       
-                      <img src="/assets/images/happyface.webp" alt="">
-                  </div>
+                    <div class="top">Review</div>
+                    <div class="bottom">
+                        
+                    <p class="testimony">
+                        Ayomide is an amazing professional. I strongly recommend working with him. 
+                    </p>
+                    <p class="name">Christian Hecker (CEO, Finmotion Advisory)</p>
+                    </div>
+                </div>
+                 
                   <div class="testimonial">
                       
                       <div class="top">Review</div>
@@ -200,7 +209,7 @@ desc: This is a description
   <div class="container_large">
     <div class="padding_global">
       <div class="section-title mid">
-          <h2>Steps to Outranking Others</h2>
+          <h2>My Approach</h2>
           <p>A clear working process is a prerequisite for success. Here’s a quick overview of how I start and complete a writing project.</p>
           
       </div>
@@ -285,28 +294,7 @@ desc: This is a description
     </div>
   </div>
 </section>
-<section>
-  <div class="container_large">
-      <div class="padding_global">
-          <div class="section-title mid">
-              <h2>My <span class="text-span">Latest</span> Blogs</h2>
-              
-              
-          </div>
-          <div>
-            <ul role="list" class="articles__list flow">
-                {%- for post in collections.featured | reverse -%}
-                   {% include 'article-snippet.njk' %}
-                {%- endfor -%}
-            </ul>
-          </div>
-          
-          <div class="centerd-botton">
-              <a href="/blog" class="button">View All</a>
-          </div>
-      </div>
-  </div>
-</section>
+
 
 <!-- <section>
   <div class="container_large">

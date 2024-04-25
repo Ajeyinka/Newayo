@@ -213,16 +213,14 @@ font-style: italic;
 font-weight: 500;
 }
 
+footer{
+  text-align: center;
+}
+
 footer h3{
 font-style: italic;
 font-size: 20px;
 font-weight: 400;
-}
-
-.footer-logo{
-display: flex;
-gap:8px;
-align-items: center;
 }
 
 
@@ -961,9 +959,16 @@ to {
 .testimonial-grid > :nth-child(4) {
    
     
-    
-    border-radius: 20px;
-    height: var(--height);
+  padding: 20px;
+  background: rgb(202, 9, 179);
+  color:white;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: var(--height);
+  
+  
 }
 
 .testimonial-grid > :nth-child(5) {
@@ -1505,6 +1510,7 @@ footer h3{
   gap:20px;
   align-items: top;
   margin-block: 20px;
+  justify-content: center;
   }
 
 
@@ -1596,6 +1602,7 @@ main > div{
 form{
   max-width: 700px;
   margin-inline: auto;
+  
 }
 
 
@@ -1683,4 +1690,37 @@ resize: none;
 
 .rte h2{
   font-size: var(--fs-4);
+}
+
+footer{
+  background: var(--pri-clr);
+  padding-block:40px;
+ 
+}
+
+.contact-links-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block: 20px;
+  gap:10px;
+
+  
+}
+
+.contact-links-holder a {
+  padding: 10px 20px;
+  background-color: white;
+  color:#000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.large{
+  position: relative;
 }
