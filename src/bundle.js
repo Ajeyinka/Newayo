@@ -10,6 +10,12 @@ toggleButton.addEventListener('click',() =>{
             barTwo.classList.toggle('active')
             barThree.classList.toggle('active')
         });
+      navLinks.addEventListener('click', () =>{
+          navLinks.classList.toggle('active')
+          barOne.classList.toggle('active')
+          barTwo.classList.toggle('active')
+          barThree.classList.toggle('active')
+      })
 
 
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxwvqWtV7xYp7t5Z8SxJ9oEfe8YRIRd8nbqMgzFj6MiRbNjzW0le4-Hem4D0gwfHCMYRQ/exec'
