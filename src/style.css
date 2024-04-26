@@ -1083,21 +1083,21 @@ backdrop-filter: blur(5.9px);
    
 }
 
-.processess > :nth-child(2){
+.processess > :nth-child(3){
     box-shadow: rgba(252,202,24,.5) 5px 5px,rgba(252,202,24,.4) 10px 10px, rgba(252,202,24,.3) 15px 15px, rgba(252,202,24,.2) 20px 20px, rgba(252,202,24,.1) 25px 25px;
 }
 
-.processess > :nth-child(2):hover{
+.processess > :nth-child(3):hover{
     background: rgba(252,202,24,1);
     color: var(--pri-clr);
    
 }
 
-.processess > :nth-child(3){
+.processess > :nth-child(5){
     box-shadow: rgba(9,202,75,.5) 5px 5px,rgba(9,202,75,.4) 10px 10px, rgba(9,202,75,.3) 15px 15px, rgba(9,202,75,.2) 20px 20px, rgba(9,202,75,.1) 25px 25px;
 }
 
-.processess > :nth-child(3):hover{
+.processess > :nth-child(5):hover{
     background: rgba(9,202,75,1);
     
    
