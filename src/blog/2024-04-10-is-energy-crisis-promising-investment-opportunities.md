@@ -1,13 +1,22 @@
 ---
-title: Traditional Investments and Alternative Investments The Question of Diversification
+title: >-
+  Traditional Investments and Alternative Investments: The Question of
+  Diversification
+description: >-
+  Throughout history, one thing has remained constant – the desire to accumulate
+  or accrue wealth. With resources remaining ever-limited, human needs have not
+  dwindled.
+desc: >-
+  Discover the differences between traditional and alternative investments, as
+  well as the risks, rewards, and strategies for growing wealth
 author: Ayomide Adeleye
-date: 2024-04-22
-tags: ['post', 'featured']
 category: Investment
+date: 2024-04-22T00:00:00.000Z
+tags:
+  - post
+  - featured
 image: /assets/blog/investment.webp
 imageAlt: Various traditional Investments
-description: Throughout history, one thing has remained constant – the desire to accumulate or accrue wealth. With resources remaining ever-limited, human needs have not dwindled.
-desc: Discover the differences between traditional and alternative investments, as well as the risks, rewards, and strategies for growing wealth
 ---
 
 Throughout history, one thing has remained constant – the desire to accumulate or accrue wealth. With resources remaining ever-limited, human needs have not dwindled. Rather, they continue to grow. Since the industrial age, the rate of human technological innovation has been matched only by live birth rates. Interestingly, such is the extent to which inventions are evolving today.
