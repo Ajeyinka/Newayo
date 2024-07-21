@@ -6,7 +6,7 @@
         <h3 class="snippet__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         <div class="snippet__meta"> 
           <p class="snippet_author"> {{ post.data.author }}</p> 
-          <p class="snippet_date">{{ post.data.date | postDate }}</p>
+          <p class="snippet_date">{{ post.date | postDate }}</p>
         </div>
         <p class="snippet__body">{{ post.data.description }}</p> 
         <a href="{{ post.url }}" class="btn">Continue Reading</a>
