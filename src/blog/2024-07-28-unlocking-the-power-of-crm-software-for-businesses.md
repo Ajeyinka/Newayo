@@ -1,5 +1,5 @@
 ---
-title: Unlocking the Power of CRM Software for Businesse
+title: Unlocking the Power of CRM Software for Businesses
 description: >-
   Happy clients equal sales and growth. Get ahead of your competition by
   unlocking the power of CRM software for your business. 
